@@ -2,13 +2,13 @@
 
 ## Opis
 
-Frontend panelu administracyjnego aplikacji [#FakeHunter](https://fakehunter.pap.pl/), której celem jest walka z fake newsami na temat COVID-19.
+Panel administracyjny aplikacji [#FakeHunter](https://fakehunter.pap.pl/). 
 
 ## Dane techniczne
 
 ### Technologie
 
-Aplikacja bazuje na takich technologiach jak:
+Aplikacja bazuje między innymi na technologiach:
 
 - React.js
 - react-router-dom
@@ -29,4 +29,4 @@ Aplikacja bazuje na takich technologiach jak:
 
 ## Licencja
 
-Program jest dstrybuowany na zasadach licencji MIT - więcej informacji w pliku `LICENSE`.
+Program jest dystrybuowany na zasadach licencji MIT - więcej informacji w pliku `LICENSE`.
