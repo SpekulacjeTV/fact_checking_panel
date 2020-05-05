@@ -2,8 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import MenuIcon from '@material-ui/icons/Menu';
 import { AppBar, Toolbar, IconButton, Typography } from '@material-ui/core';
+import { useTranslation } from 'react-i18next';
 
 const Topbar = ({ onMenuClick }) => {
+  const { t } = useTranslation();
   return (
     <AppBar position="sticky">
       <Toolbar>
@@ -11,7 +13,7 @@ const Topbar = ({ onMenuClick }) => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" component="p" noWrap>
-          DoFacts!
+          {t('layout.topbarTitle')}
         </Typography>
       </Toolbar>
     </AppBar>

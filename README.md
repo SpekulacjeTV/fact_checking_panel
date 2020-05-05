@@ -1,20 +1,32 @@
-# DoFacts! - admin panel
+# Fake News Fighter
 
-Management panel for judging news related to COVID-19 received from the browser extension. It's a part of [dofacts project](https://github.com/dook/dofacts).
+## Opis
 
-## Getting Started
+Frontend panelu administracyjnego aplikacji [#FakeHunter](https://fakehunter.pap.pl/), której celem jest walka z fake newsami na temat COVID-19.
 
-### Prerequisites
+## Dane techniczne
 
-- Node.js >=12.13.0
-- Yarn / npm
+### Technologie
 
-### Commands
+Aplikacja bazuje na takich technologiach jak:
 
-- `yarn install` - install dependencies before start
-- `yarn start` - start development server
-- `yarn build` - build production bundle
+- React.js
+- react-router-dom
+- Redux oraz redux-saga
+- material-ui
+- CSS Modules
 
-## License
+### Wymagania
 
-This project is licensed under the MIT License - see the LICENSE file for details
+- `node.js` >= 12.13.0
+- `yarn` / `npm`
+
+### Komendy
+
+- `yarn install` - instaluje niezbędne zależności
+- `yarn start` - uruchamia serwer deweloperski
+- `yarn build` - buduje wersję produkcyjną aplikacji
+
+## Licencja
+
+Program jest dstrybuowany na zasadach licencji MIT - więcej informacji w pliku `LICENSE`.

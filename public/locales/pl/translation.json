@@ -49,6 +49,7 @@
     "noResults": "Brak wyników."
   },
   "layout": {
+    "topbarTitle": "#FakeHunter",
     "textUnderLogo": "Panel administracyjny",
     "logout": "Wyloguj"
   },

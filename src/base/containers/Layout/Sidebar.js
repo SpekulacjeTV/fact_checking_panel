@@ -30,9 +30,7 @@ const Sidebar = ({ menuItems, isOpen, onClose, variant }) => {
     >
       <div className={styles.LogoWrapper}>
         <Logo className={styles.Logo} />
-        <Typography variant="body2" align="center">
-          {t('layout.textUnderLogo')}
-        </Typography>
+        <Typography variant="body2">{t('layout.textUnderLogo')}</Typography>
       </div>
       <List>
         {menuItems.map(({ i18nkey, url, icon, disabled }) => (
